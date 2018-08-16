@@ -1,4 +1,5 @@
 .wrap {
+    position: relative;
     max-width: 980px;
     margin: 0 auto;
 }
@@ -35,4 +36,24 @@
 }
 .main {
     flex: 1
+}
+.main .wrap {
+    border: 1px #cccccc solid;
+    border-top: 0;
+}
+.index-menu li{
+    transition: .5s;
+
+}
+.index-menu li:hover {
+    background: #1890ff;
+}
+.index-menu li a:hover {
+    color: white;
+}
+.index-menu .ant-menu-item-selected {
+    border-right: 3px #1890ff solid;
+}
+.index-list {
+    border-left: 1px #cccccc solid;
 }
