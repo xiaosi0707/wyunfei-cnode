@@ -8,3 +8,20 @@
 .pageWrap {
     min-height: 100vh;
 }
+.header-divider {
+    height: 44px;
+    float: left;
+    margin-top: 10px;
+}
+#nav {
+    float: left;
+    background: none;
+    border: 0;
+    line-height: 62px;
+}
+#nav a {
+    color: white;
+}
+#nav .ant-menu-item-selected a{
+    color: #1890ff;
+}

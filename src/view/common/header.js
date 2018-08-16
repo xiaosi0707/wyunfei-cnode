@@ -1,6 +1,7 @@
 /*Created by SmallFour on 2018/8/16*/
 import React, { Component } from 'react'
-import { Layout, Row, Col } from 'antd'
+import { Link } from 'react-router-dom'
+import { Layout, Row, Col, Divider, Menu, Icon } from 'antd'
 
 class Header extends Component {
     render() {
@@ -9,7 +10,20 @@ class Header extends Component {
                 <Col md={6} xs={24}>
                     <h1 id='logo'>cnode</h1>
                 </Col>
-                <Col md={18} xs={0}/>
+                <Col md={18} xs={0}>
+                    <Divider type='vertical' className='header-divider'></Divider>
+                    <Menu mode='horizontal' id='nav' theme='light' >
+                        <Menu.Item>
+                            <Link to='/index'><Icon type='home'/>首页</Link>
+                        </Menu.Item>
+                        <Menu.Item>
+                            <Link to='/book'><Icon type='book'/>教程</Link>
+                        </Menu.Item>
+                        <Menu.Item>
+                            <Link to='/about'><Icon type='info-circle-o'/>关于我们</Link>
+                        </Menu.Item>
+                    </Menu>
+                </Col>
             </Row>
         </Layout.Header>
     }
