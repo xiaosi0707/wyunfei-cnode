@@ -7,6 +7,8 @@
 }
 .pageWrap {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column ;
 }
 .header-divider {
     height: 44px;
@@ -30,4 +32,7 @@
     right: 0;
     top: 0;
     width: auto;
+}
+.main {
+    flex: 1
 }
