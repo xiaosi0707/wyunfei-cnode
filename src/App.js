@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import MyHeader from './view/common/header'
+import MyFooter from './view/common/footer'
+import './view/index.css'
 import RouterIndex from './router/index'
 class App extends Component {
   render() {
     return (
-        <RouterIndex />
+        <div className='pageWrap'>
+            <MyHeader></MyHeader>
+            <MyFooter></MyFooter>
+        </div>
     );
   }
 }
