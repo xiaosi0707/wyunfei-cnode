@@ -5,6 +5,10 @@ import { Menu, Row, Col } from 'antd'
 
 class Index extends Component {
     render() {
+        let arr = []
+        for (let i=0; i<100;i++) {
+            arr.push(<li>这是第${i}个li</li>)
+        }
         return (
             <Row className='wrap'>
                 <Col md={6}>
@@ -29,7 +33,9 @@ class Index extends Component {
                     </Menu.Item>
                 </Menu>
                 </Col>
-                <Col md={18} className='index-list'></Col>
+                <Col md={18} className='index-list'>
+                    {arr}
+                </Col>
             </Row>
         )
     }

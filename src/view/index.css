@@ -43,7 +43,8 @@
 }
 .index-menu li{
     transition: .5s;
-
+    flex: 1;
+    text-align: center;
 }
 .index-menu li:hover {
     background: #1890ff;
@@ -56,4 +57,9 @@
 }
 .index-list {
     border-left: 1px #cccccc solid;
+}
+@media all and (max-width: 767px) {
+    .index-menu {
+        display: flex;
+    }
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef4e80a-09eb-4499-a81e-c018d84a9b7e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change beforePath="$PROJECT_DIR$/src/view/index.css" afterPath="$PROJECT_DIR$/src/view/index.css" />
       <change beforePath="$PROJECT_DIR$/src/view/index/index.js" afterPath="$PROJECT_DIR$/src/view/index/index.js" />
     </list>
@@ -46,8 +44,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1084">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -56,10 +54,18 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="872">
-              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+            <state relative-caret-position="159">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
                 <element signature="e#38#78#0" expanded="true" />
+                <marker date="1534408332973" expanded="true" signature="363:1338" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="438:1194" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="470:559" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="591:681" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="713:802" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="834:925" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="957:1046" ph="..." />
+                <marker date="1534408332973" expanded="true" signature="1078:1170" ph="..." />
               </folding>
             </state>
           </provider>
@@ -182,26 +188,6 @@
               <item name="my-cnode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-cnode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-cnode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-cnode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-cnode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-cnode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-cnode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -247,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534383621786</updated>
-      <workItem from="1534383623248" duration="13038000" />
+      <workItem from="1534383623248" duration="14302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13038000" />
+    <option name="totallyTimeSpent" value="14302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
@@ -447,18 +433,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="872">
-          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        <state relative-caret-position="159">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
             <element signature="e#38#78#0" expanded="true" />
+            <marker date="1534408332973" expanded="true" signature="363:1338" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="438:1194" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="470:559" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="591:681" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="713:802" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="834:925" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="957:1046" ph="..." />
+            <marker date="1534408332973" expanded="true" signature="1078:1170" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1084">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding />
         </state>
       </provider>
