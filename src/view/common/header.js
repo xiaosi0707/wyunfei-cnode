@@ -1,7 +1,8 @@
 /*Created by SmallFour on 2018/8/16*/
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Layout, Row, Col, Divider, Menu, Icon } from 'antd'
+import { Layout, Row, Col, Divider, Menu, Icon, Dropdown, Button } from 'antd'
+import Nav from '../common/nav'
 
 class Header extends Component {
     render() {
@@ -12,17 +13,16 @@ class Header extends Component {
                 </Col>
                 <Col md={18} xs={0}>
                     <Divider type='vertical' className='header-divider'></Divider>
-                    <Menu mode='horizontal' id='nav' theme='light' >
-                        <Menu.Item>
-                            <Link to='/index'><Icon type='home'/>首页</Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                            <Link to='/book'><Icon type='book'/>教程</Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                            <Link to='/about'><Icon type='info-circle-o'/>关于我们</Link>
-                        </Menu.Item>
-                    </Menu>
+                    <Nav id='nav' mode='horizontal'></Nav>
+                </Col>
+                <Col md={0} xs={24} className='xs-nav'>
+                    <Dropdown overlay={
+                        <Nav mode='vertical' id='xs-nav'/>
+                    }
+                              trigger={['click', 'touchend']}
+                    >
+                        <Button><Icon type='bars'></Icon></Button>
+                    </Dropdown>
                 </Col>
             </Row>
         </Layout.Header>
