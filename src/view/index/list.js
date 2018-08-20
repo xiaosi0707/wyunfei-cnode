@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import { List,Avatar } from 'antd'
 import { Link } from 'react-router-dom'
+import TitleTag from '../common/tag'
 import Axios from 'axios'
 class IndexList extends Component {
     constructor(props){
@@ -14,10 +15,10 @@ class IndexList extends Component {
         return <List
             // loading={true}
             dataSource={ this.state.topicData }
-            renderItem={item => (<List.Item>
+            renderItem={item => (<List.Item actions={['回复' + item.reply_count, '访问' + item.visit_count]}>
                 <List.Item.Meta
                     avatar={<Avatar src={item.author.avatar_url} />}
-                    title={<Link to={"/detail/"+ item.id}>{item.title}</Link>}
+                    title={<div><TitleTag data={item}></TitleTag><Link to={"/detail/"+ item.id}>{item.title}</Link></div>}
                     description={(<p>
                         <Link to={"/user/" + item.author.loginname}>{item.author.loginname}发表于：{item.create_at.split('1')[0]}</Link>
                     </p>)}

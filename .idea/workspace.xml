@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef4e80a-09eb-4499-a81e-c018d84a9b7e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/index/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/view/common/tag.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/view/index.css" afterPath="$PROJECT_DIR$/src/view/index.css" />
-      <change beforePath="$PROJECT_DIR$/src/view/index/index.js" afterPath="$PROJECT_DIR$/src/view/index/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/view/index/list.js" afterPath="$PROJECT_DIR$/src/view/index/list.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/index/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="424">
+              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="e#38#78#0" expanded="true" />
               </folding>
@@ -32,10 +30,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tag.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/common/tag.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <element signature="e#38#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="1267">
               <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
               <folding />
             </state>
@@ -99,8 +109,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/view/index/index.js" />
-        <option value="$PROJECT_DIR$/src/view/index/list.js" />
         <option value="$PROJECT_DIR$/src/view/index.css" />
+        <option value="$PROJECT_DIR$/src/view/index/list.js" />
+        <option value="$PROJECT_DIR$/src/view/common/tag.js" />
       </list>
     </option>
   </component>
@@ -153,6 +164,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-cnode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-cnode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,12 +217,12 @@
       <updated>1534383621786</updated>
       <workItem from="1534383623248" duration="15396000" />
       <workItem from="1534726922558" duration="1783000" />
-      <workItem from="1534733298577" duration="4776000" />
+      <workItem from="1534733298577" duration="6599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21955000" />
+    <option name="totallyTimeSpent" value="23778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
@@ -361,6 +379,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1267">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
@@ -373,19 +399,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/index/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="424">
+          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding>
             <element signature="e#38#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/index.css">
+    <entry file="file://$PROJECT_DIR$/src/view/common/tag.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="1590">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="e#38#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
