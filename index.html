@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        var xhr = new XMLHttpRequest();
+    xhr.open('get', 'https://m.toutiao.com/list/?tag=__all__&ac=wap&count=20&format=json_raw&as=A1B54B976A6128B&cp=5B7A6102083B1E1&min_behot_time=1534726505&_signature=NaF5cAAAbuGfjjnwNt0g.zWheW&i=1534726484'); // https://api.douban.com/v2/book/1220562
+    xhr.send();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                console.log(JSON.parse(xhr.responseText))
+            } else {
+                console.log(xhr.status)
+            }
+        }
+    }
+</script>
+</body>
+</html>
