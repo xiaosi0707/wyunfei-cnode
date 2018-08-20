@@ -25,6 +25,9 @@ class RepliesList extends Component{
                                 avatar={<Avatar src={item.author.avatar_url} />}
                                 description={<p><Link to={'/user/' + item.author.loginname}>{item.author.loginname}</Link><span style={{marginLeft: '5px'}}>发表于：{item.create_at.split('T')[0]}</span></p>}
                             ></List.Item.Meta>
+                            <div dangerouslySetInnerHTML={{
+                                __html:item.content
+                            }}></div>
                         </List.Item>
                     )}
                 >
