@@ -2,9 +2,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Menu, Row, Col } from 'antd'
+import IndexList from './list'
 
 class Index extends Component {
     render() {
+        console.log(this.props)
         let arr = []
         for (let i=0; i<100;i++) {
             arr.push(<li>这是第${i}个li</li>)
@@ -34,7 +36,7 @@ class Index extends Component {
                 </Menu>
                 </Col>
                 <Col md={18} className='index-list'>
-                    {arr}
+                    <IndexList />
                 </Col>
             </Row>
         )

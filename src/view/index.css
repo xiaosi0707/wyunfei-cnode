@@ -56,6 +56,7 @@
     border-right: 3px #1890ff solid;
 }
 .index-list {
+    padding-left: 24px;
     border-left: 1px #cccccc solid;
 }
 @media all and (max-width: 767px) {
