@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { Card, Tag, Avatar } from 'antd'
 import {Link} from 'react-router-dom'
 import TitleTag from '../common/tag'
+import RepliesList from './replies-list'
 import data from './data'
 class Detail extends Component {
     constructor(props) {
@@ -24,6 +25,10 @@ class Detail extends Component {
                 title={title}>
                     <div dangerouslySetInnerHTML={{ __html: data.data.content }}></div>
                 </Card>
+                <RepliesList
+                    replies={data.data.replies}
+                    repliesCount={data.data.reply_count}
+                ></RepliesList>
             </div>
         )
     }

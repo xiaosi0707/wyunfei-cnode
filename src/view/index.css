@@ -64,3 +64,6 @@
         display: flex;
     }
 }
+.replies-avatar.ant-list-vertical .ant-list-item-meta-avatar {
+    display: inline;
+}
