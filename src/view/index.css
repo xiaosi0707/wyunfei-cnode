@@ -86,3 +86,7 @@
     line-height: 36px;
     padding-bottom: 10px;
 }
+.user-list time {
+    position: absolute;
+    right: 0;
+}

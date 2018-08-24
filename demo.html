@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+  1.展开运算符允许一个表达式在某处展开.常用的场景包括:函数参数,数组元素,解构赋值.
+另外,jsx的组件props也可以使用展开运算符来赋值.
+    * */
+    var result = [
+        {
+            subject: 'math',
+            score: 88
+        },
+        {
+            subject: 'chinese',
+            score: 95
+        },
+        {
+            subject: 'english',
+            score: 80
+        }
+    ];
+    let sum = result.reduce((prev, cur) => {
+        return prev + cur.score
+    }, 0);
+    console.log(sum)
+</script>
+</body>
+</html>
